@@ -6,7 +6,7 @@
         $valor_compra = 0;
         if($iva > 0){
         $valor_compra = ($iva/100)*$valor;
-        echo "El valor con iva es:".$valor_compra;
+        echo "El valor con iva es: ".$valor;
         }
         else if($descuento >0){
         $valor_descuento = ($valor*$descuento)-$descuento;
